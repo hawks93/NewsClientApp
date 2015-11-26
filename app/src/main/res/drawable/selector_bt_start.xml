@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:drawable="@drawable/shape_green_pic" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/shape_green_pic" android:state_focused="true"></item>
+    <!--默认的必须放在最后一个-->
+    <item android:drawable="@drawable/shape_red_pic" ></item>
+
+
+</selector>

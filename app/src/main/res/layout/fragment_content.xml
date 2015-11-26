@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.hawks93.newsclientapp.view.NoSrollViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/bottom_tab_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/ButtonTabStyle"
+            android:drawableTop="@drawable/selector_bt_tab_home"
+            android:text="首页"
+            android:textColor="@drawable/selector_text_tab" />
+
+        <RadioButton
+            android:id="@+id/rb_news"
+            style="@style/ButtonTabStyle"
+            android:drawableTop="@drawable/selector_bt_tab_news"
+            android:text="新闻中心"
+            android:textColor="@drawable/selector_text_tab" />
+
+        <RadioButton
+            android:id="@+id/rb_smart"
+            style="@style/ButtonTabStyle"
+            android:drawableTop="@drawable/selector_bt_tab_smartserver"
+            android:gravity="center"
+            android:text="智慧服务"
+            android:textColor="@drawable/selector_text_tab" />
+
+        <RadioButton
+            android:id="@+id/rb_gov"
+            style="@style/ButtonTabStyle"
+            android:drawableTop="@drawable/selector_bt_tab_govaffairs"
+            android:text="政务"
+            android:textColor="@drawable/selector_text_tab" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/ButtonTabStyle"
+            android:drawableTop="@drawable/selector_bt_tab_setting"
+            android:text="设置"
+            android:textColor="@drawable/selector_text_tab" />
+
+
+    </RadioGroup>
+
+
+</LinearLayout>
